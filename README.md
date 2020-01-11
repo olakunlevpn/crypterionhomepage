@@ -2,8 +2,8 @@
 
 
 [![Laravel 4.2|5.x|6.x](https://img.shields.io/badge/Laravel-4.2|5.x-orange.svg)](http://laravel.com)
-[![Issues](https://img.shields.io/github/issues/olakunlevpn/crypeterion-homepage?style=flat-square)](https://github.com/olakunlevpn/crypeterion-homepage/issues)
-[![Stars](https://img.shields.io/github/stars/olakunlevpn/crypeterion-homepage)](https://github.com/olakunlevpn/crypeterion-homepage/stargazers)
+[![Issues](https://img.shields.io/github/issues/olakunlevpn/crypeterion-homepage?style=flat-square)](https://github.com/olakunlevpn/crypterionhomepage/issues)
+[![Stars](https://img.shields.io/github/stars/olakunlevpn/crypeterion-homepage)](https://github.com/olakunlevpn/crypterionhomepage/stargazers)
 [![Latest Stable Version](https://poser.pugx.org/olakunlevpn/crypterionhomepage/v/stable)](https://packagist.org/packages/olakunlevpn/crypterionhomepage)
 [![Total Downloads](https://poser.pugx.org/olakunlevpn/crypterionhomepage/downloads)](https://packagist.org/packages/olakunlevpn/crypterionhomepage)
 [![Latest Unstable Version](https://poser.pugx.org/olakunlevpn/crypterionhomepage/v/unstable)](https://packagist.org/packages/olakunlevpn/crypterionhomepage)
