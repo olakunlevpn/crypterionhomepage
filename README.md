@@ -8,7 +8,7 @@
 [![Total Downloads](https://poser.pugx.org/olakunlevpn/crypterionhomepage/downloads)](https://packagist.org/packages/olakunlevpn/crypterionhomepage)
 [![Latest Unstable Version](https://poser.pugx.org/olakunlevpn/crypterionhomepage/v/unstable)](https://packagist.org/packages/olakunlevpn/crypterionhomepage)
 [![License](https://poser.pugx.org/olakunlevpn/crypterionhomepage/license)](https://packagist.org/packages/olakunlevpn/crypterionhomepage)
-
+[![composer.lock](https://poser.pugx.org/olakunlevpn/crypterionhomepage/composerlock)](https://packagist.org/packages/olakunlevpn/crypterionhomepage)
 
 ## Simple homepage to extend crypterion script
 
