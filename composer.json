@@ -1,0 +1,30 @@
+{
+    "name": "olakunlevpn/crypterionhomepage",
+    "description": "Simple homepage to extend crypterion script",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "olakunlevpn",
+            "email": "olakunlevpn@live.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+
+    "autoload": {
+        "psr-4": { 
+            "Olakunlevpn\\Crypterionhomepage\\": "src/"
+        }
+    },
+    "extra": {
+    "laravel": {
+        "providers": [ 
+            "Olakunlevpn\\Crypterionhomepage\\CrypterionhomepageServiceProvider"
+        ]
+       
+    }
+}
+ 
+
+}
