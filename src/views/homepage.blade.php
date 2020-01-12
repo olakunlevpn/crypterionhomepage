@@ -27,15 +27,15 @@
             <!-- Button -->
             <a @if (Auth::guest()) href="{{  url('/home') }}"
                @else  href="{{  url('profile') }}/{{ @Auth::user()->name }}/offers"
-               @endif  class="btn btn-primary mr-1 lift">
+               @endif  class="btn btn-primary mr-1 lift m-1">
                @if (Auth::guest()) Create a Wallet
                @else  My Offers
                @endif
             </a>
-            <a href="{{  url('/marketplace/buy_coin') }}" class="btn btn-primary mr-1 lift">
+            <a href="{{  url('/marketplace/buy_coin') }}" class="btn btn-primary m-1 lift">
               Buy Now  <i class="fe fe-arrow-right ml-3"></i>
             </a>
-            <a href="{{  url('/marketplace/sell_coin') }}" class="btn btn-primary-soft lift">
+            <a href="{{  url('/marketplace/sell_coin') }}" class="btn btn-primary-soft lift m-1">
               Sell Now
             </a>
 
@@ -57,16 +57,16 @@
     <!-- PRICING
     ================================================== -->
     <section class="mt-n8">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
-          <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="50">
+          <div class="col-12 col-md-3 mb-1" data-aos="fade-up" data-aos-delay="50">
 
 
           <crypto-widget type="card" template="chart6" color="default" assets="BTC~USD" api="cryptocompare.com" realtime="true" animation="flash"></crypto-widget>
 
 
           </div>
-          <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="50">
+          <div class="col-12 col-md-3 mb-1" data-aos="fade-up" data-aos-delay="50">
 
 
             <crypto-widget type="card" template="chart6" color="default" assets="BCH~USD" api="cryptocompare.com" realtime="true" animation="flash"></crypto-widget>
@@ -75,10 +75,18 @@
             </div>
 
 
-            <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="50">
+            <div class="col-12 col-md-3 mb-1" data-aos="fade-up" data-aos-delay="50">
 
 
             <crypto-widget type="card" template="chart6" color="default" assets="DASH~USD" api="cryptocompare.com" realtime="true" animation="flash"></crypto-widget>
+
+
+            </div>
+
+            <div class="col-12 col-md-3" data-aos="fade-up" data-aos-delay="50">
+
+
+            <crypto-widget type="card" template="chart6" color="default" assets="LTC~USD" api="cryptocompare.com" realtime="true" animation="flash"></crypto-widget>
 
 
             </div>
