@@ -35,7 +35,7 @@
 
             <!-- Text -->
             <p class="lead text-muted mb-6 mb-md-8">
-              What kind of trade advertisement do you wish to create? If you wish to sell bitcoins make sure you have bitcoins in your LocalBitcoins wallet.
+              What kind of trade advertisement do you wish to create? If you wish to sell bitcoins make sure you have bitcoins in your {{ $data['name'] }} wallet.
             </p>
 
             <!-- Buttons -->
@@ -83,7 +83,7 @@
   <i class="fe fe-check"></i>
   </div>
 
-  <p>For your ads to display you need to have Bitcoins in your LocalBitcoins wallet. You need 0.04 BTC or more for advertisements with online payment methods.</p>
+  <p>For your ads to display you need to have Bitcoins in your {{ $data['name'] }} wallet. You need 0.04 BTC or more for advertisements with online payment methods.</p>
 
   </li>
 
@@ -162,7 +162,7 @@
                     </div>
 
                     <!-- Text -->
-                    <p>All communication must happen on LocalBitcoins.com.</p></li>
+                    <p>All communication must happen on {{ $data['name'] }}.com.</p></li>
 
      <li class="d-flex">
 
