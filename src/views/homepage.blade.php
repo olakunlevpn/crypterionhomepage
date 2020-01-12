@@ -15,8 +15,8 @@
 
             <!-- Heading -->
             <h1 class="display-3 font-weight-bold">
-              Nigeria No.1 <br>
-              Secure Escrow Trading
+              The World's Leading <br>
+              Cryptocurrency Exchange
             </h1>
 
             <!-- Text -->
