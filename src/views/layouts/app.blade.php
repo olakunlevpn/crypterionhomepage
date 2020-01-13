@@ -72,7 +72,7 @@
 
         <!-- Brand -->
         <a class="navbar-brand" href="{{  url('/') }}">
-          <img src="{{ asset('/storage/brand/logo-dark.png') }}" class="navbar-brand-img" alt="...">
+          <img src="{{ asset('/images/logo-dark.png') }}" class="navbar-brand-img" alt="...">
         </a>
 
         <!-- Toggler -->
@@ -253,7 +253,7 @@ Dashboard
           <div class="col-12 col-md-4 col-lg-4">
         
             <!-- Brand -->
-            <img src="{{ asset('/storage/brand/logo-dark.png') }}" alt="..." class="footer-brand img-fluid mb-2">
+            <img src="{{ asset('/images/logo-dark.png') }}" alt="..." class="footer-brand img-fluid mb-2">
 
             <!-- Text -->
             <p class="text-gray-700 mb-2">
